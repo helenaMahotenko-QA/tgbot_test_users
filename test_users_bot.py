@@ -6,7 +6,7 @@ from faker import Faker
 from telebot import TeleBot, types
 
 # TODO: вставить свой токен
-TOKEN = '5653462862:AAEKOYwXRkpaNnl2j5ySVHaB-IcPTQ0kdOk'
+TOKEN = 'Вставьте свой токен'
 bot = TeleBot(TOKEN, parse_mode='html')
 # указываем язык - русский
 faker = Faker('ru_RU') 
